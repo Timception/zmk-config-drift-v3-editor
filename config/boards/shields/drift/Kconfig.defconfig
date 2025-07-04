@@ -1,4 +1,4 @@
-if SHIELD_drift_RIGHT
+if SHIELD_drift_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "Drift V3"
