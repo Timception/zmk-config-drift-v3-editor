@@ -13,13 +13,13 @@
 ## Quickstart Guide   
   - [1.	How to change your keys](/docs/change-keys/) - Detailed guide on how to change your keys  
 
-  - [2.	How to install batteries](/docs/batteries/) - Along with other supported batteries  
+  - [2.	How to install batteries](/docs/batteries/) - Battery installation and alternate options  
 
   - [3.	Connecting through Bluetooth](/docs/bluetooth/) - Bluetooth connections and troubleshooting  
 
   - [4.	Charging](/docs/charging/) - How to charge the keyboard and use with USB-C  
 
-  - [5.	Switching to low profile](/docs/low-profile/) - Remove some parts to use low profile switches  
+  - [5.	Switching to low profile](/docs/low-profile/) - Removal of some parts to use low profile switches  
 
   - [6.	3D Printables](https://github.com/Timception/3d-printables) - This will take you to the 3D printable part repository  
 <br/><br/>  
