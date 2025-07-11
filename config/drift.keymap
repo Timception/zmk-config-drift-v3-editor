@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: MIT
 
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1500  // default: 600
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 120    // default: 10 - for encoder mouse-scroll to work
 
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
@@ -22,6 +22,15 @@
         tri_layer {
             if-layers = <LOWER RAISE>;
             then-layer = <ADJUST>;
+        };
+    };
+	
+	behaviors {
+        enc_scroll: enc_scroll {
+            compatible = "zmk,behavior-sensor-rotate-var";
+            #sensor-binding-cells = <2>;
+            bindings = <&msc>, <&msc>;
+            tap-ms = <20>;
         };
     };
 
@@ -67,7 +76,7 @@
                                                     &kp LSHFT  &kp SPACE  &trans                              &trans  &kp SPACE  &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&enc_scroll SCRL_UP SCRL_DOWN>, <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         raise_layer {
