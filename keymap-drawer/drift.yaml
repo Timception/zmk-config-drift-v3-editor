@@ -1,0 +1,218 @@
+layout: {zmk_keyboard: drift}
+layers:
+  base: [ESC, ESC, '`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', BSPC, Ctl+C, Sft+Gui+S, TAB, Q, W, E, R, T, Y, U, I, O, P, '[', ']', \, LGUI,
+    CAPS, A, S, D, F, G, H, J, K, L, ;, '''', ENTER, Ctl+V, LCTRL, LALT, Z, X, C, V, B, MUTE, MUTE, N, M, ',', ., /, RALT, RCTRL, DEL, LSHFT, SPACE, lower, raise,
+    SPACE, BSPC]
+  lower:
+  - '&bootloader'
+  - ESC
+  - '`'
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - BSPC
+  - Ctl+C
+  - {t: ▽, type: trans}
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - '['
+  - \
+  - \
+  - LGUI
+  - CAPS
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - UP
+  - Ctl+V
+  - LCTRL
+  - LALT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - MUTE
+  - MUTE
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - LEFT
+  - DOWN
+  - RIGHT
+  - LSHFT
+  - SPACE
+  - {type: held}
+  - {t: ▽, type: trans}
+  - SPACE
+  - DEL
+  raise:
+  - BT CLR
+  - BT CLR
+  - BT CLR ALL
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - '&msc SCRL_UP'
+  - '&bootloader'
+  - Ctl+C
+  - {t: ▽, type: trans}
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - '&mkp MCLK'
+  - '&msc SCRL_DOWN'
+  - '&mkp RCLK'
+  - LGUI
+  - CAPS
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - '&mkp LCLK'
+  - '&mmv MOVE_UP'
+  - Ctl+V
+  - LCTRL
+  - LALT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - MUTE
+  - MUTE
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - LSHFT
+  - SPACE
+  - {t: ▽, type: trans}
+  - {type: held}
+  - SPACE
+  - DEL
+  adjust:
+  - BT CLR
+  - BT CLR
+  - BT CLR ALL
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - '&msc SCRL_UP'
+  - BT CLR
+  - Ctl+C
+  - {t: ▽, type: trans}
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - '['
+  - '&msc SCRL_DOWN'
+  - '&mkp RCLK'
+  - LGUI
+  - CAPS
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - '&mkp LCLK'
+  - '&mmv MOVE_UP'
+  - Ctl+V
+  - LCTRL
+  - LALT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - MUTE
+  - MUTE
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - LSHFT
+  - SPACE
+  - {type: held}
+  - {type: held}
+  - SPACE
+  - BSPC
