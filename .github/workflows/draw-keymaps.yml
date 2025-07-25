@@ -1,11 +1,11 @@
 name: "Draw Keymap"
 on:
-# workflow_dispatch:  # can be triggered manually
-#  push:               # automatically run on changes to following paths
-#    paths:
-#      - "config/drift.keymap"
-#      - "keymap_drawer.config.yaml"
-#      - "config/boards/shields/drift/drift.dtsi"
+ workflow_dispatch:  # can be triggered manually
+  push:               # automatically run on changes to following paths
+    paths:
+      - "config/drift.keymap"
+      - "keymap_drawer.config.yaml"
+      - "config/boards/shields/drift/drift.dtsi"
 
 jobs:
   draw:
